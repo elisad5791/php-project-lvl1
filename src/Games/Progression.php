@@ -8,6 +8,7 @@ function getProgression(int $start, int $step, int $count, int $missing)
 {
     $result = [];
     $current = $start;
+    $answer = 0;
     for ($i = 0; $i < $count; $i++) {
         if ($i === $missing) {
             $answer = $current;

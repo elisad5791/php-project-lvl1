@@ -11,7 +11,7 @@ use BrainGames\Games\Prime;
 use function cli\line;
 use function cli\prompt;
 
-function play($game, $text, $gameCount)
+function play(string $game, string $text, int $gameCount)
 {
     line('Welcome to the Brain Games!');
     $name = prompt('May I have your name?');
