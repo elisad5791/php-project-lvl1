@@ -4,7 +4,7 @@ namespace BrainGames\Games\Progression;
 
 use BrainGames\Engine;
 
-function getProgression($start, $step, $count, $missing)
+function getProgression(int $start, int $step, int $count, int $missing)
 {
     $result = [];
     $current = $start;

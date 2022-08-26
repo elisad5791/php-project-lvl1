@@ -4,7 +4,7 @@ namespace BrainGames\Games\Gcd;
 
 use BrainGames\Engine;
 
-function getGcd($num1, $num2)
+function getGcd(int $num1, int $num2)
 {
     $current = $num1;
     while ($current > 1) {
