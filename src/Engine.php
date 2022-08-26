@@ -6,6 +6,7 @@ use BrainGames\Games\Even;
 use BrainGames\Games\Calc;
 use BrainGames\Games\Gcd;
 use BrainGames\Games\Progression;
+use BrainGames\Games\Prime;
 
 use function cli\line;
 use function cli\prompt;
@@ -29,6 +30,9 @@ function play($game, $text, $gameCount)
                 break;
             case 'progression':
                 [$question, $rightAnswer] = Progression\getQuestion();
+                break;
+            case 'prime':
+                [$question, $rightAnswer] = Prime\getQuestion();
                 break;
         }
         line("Question: %s", $question);
