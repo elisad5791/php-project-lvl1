@@ -37,3 +37,4 @@ make brain-prime          # простое число
 ```
 
 ### Демонстрация
+[Видео игры](https://asciinema.org/a/517367)
