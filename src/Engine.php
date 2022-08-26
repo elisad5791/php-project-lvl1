@@ -34,6 +34,8 @@ function play($game, $text, $gameCount)
             case 'prime':
                 [$question, $rightAnswer] = Prime\getQuestion();
                 break;
+            default:
+                [$question, $rightAnswer] = ['', ''];
         }
         line("Question: %s", $question);
         $answer = prompt('Your answer: ');
