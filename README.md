@@ -23,7 +23,7 @@
 ```
 git clone git@github.com:elisad5791/php-project-lvl1.git
 cd php-project-lvl1
-composer install
+make install
 ```
 
 ### Запуск на выполнение
